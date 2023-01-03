@@ -24,3 +24,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+orbs:
+  artifactory-orb: jfrog/artifactory-orb@1.0.1
