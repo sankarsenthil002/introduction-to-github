@@ -24,6 +24,10 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
+
+  example-workflow:
+    jobs:
+      - artifactory-orb/upload
 orbs:
   artifactory-orb: jfrog/artifactory-orb@1.0.1
   
